@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html>
-    <head>    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Login-Page</title>
+    <link rel="stylesheet" href="login.css">
 </head>
     <body>
-        <div class="login-form">
+        <div class="container">
             <h3>Sign-up for Entry</h3>
             <form>
                 <div>
-                    <label for="User_name">Username</label><br>
-                    <input type="text" id="User_name" name="User_name" required>
+                    <label class="Usertext" id="User_name">Username</label><br>
+                    <input class="box" type="text" id="User_name_box" name="User_name" required>
                 </div>
                 <div>
-                    <label for="User_id">Userid</label><br>
-                    <input type="text" id="User_id" name="User_id" required>
+                    <label class="Usertext" id="User_id">Userid</label><br>
+                    <input class="box" type="text" id="User_id" name="User_id" required>
                 </div>
                 <div>
-                    <label for="User_password">Password</label><br>
-                    <input type="password" id="User_password" name="User_password" required>
+                    <label class="Usertext" id="User_password">Password</label><br>
+                    <input class="box" type="password" id="User_password" name="User_password" required>
                 </div>
                 <div>
-                    <label for="User_email">E-mail</label><br>
-                    <input type="email" id="User_email" name="User_email">
+                    <label class="Usertext" id="User_email">E-mail</label><br>
+                    <input class="box" type="email" id="User_email" name="User_email">
                 </div>
                 <div>
                     <br>
-                    <button type="submit">Submit</button>
+                    <button id="submit" type="submit">Submit</button>
                 </div>
             </form>
         </div>
